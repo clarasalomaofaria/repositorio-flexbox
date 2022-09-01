@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: lightgrey;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.start {
+    justify-content: flex-start;
+
+}
+
+.end {
+    justify-content: flex-end;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-nome {
+    justify-content: space-evenly;
+}
+
+.filho {
+   /* padding: 15px 20px; */
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.azul-claro{
+    background-color: #63b1bc;
+    color: white;
+}
+
+.azul-escuro{
+    background-color: #1f2a44;
+    color: white;
+}
+
+.rosa{
+    background-color: #ed1456;
+    color: white;
+}
+
+.amarelo{
+    background-color: #efb661;
+    color: white;
+}
+
+.container-exercicioB {
+    background-color: lightgray;
+    display: flex;
+    margin-top: 45px;
+    flex-direction: column;
+}
+
+.filhoB {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-desafio {
+    background-color: lightgray;
+    display: flex;
+    margin-top: 45px;
+}
+
+.filhoD {
+    /* padding: 15px 20px; */
+     width: 50px;
+     height: 50px;
+     text-align: center;
+     border-radius: 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+     
+ }
+ 
